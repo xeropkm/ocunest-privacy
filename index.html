@@ -1,61 +1,87 @@
-# Privacy Policy for OcuNest
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy for OcuNest</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #222;
+  }
+  h1 { color: #65318E; }
+  h2 { color: #65318E; border-bottom: 2px solid #CFFFF6; padding-bottom: 6px; margin-top: 32px; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+  th { background-color: #65318E; color: white; }
+  tr:nth-child(even) { background-color: #f7f7f7; }
+  a { color: #65318E; }
+  .updated { color: #666; font-style: italic; }
+</style>
+</head>
+<body>
 
-**Last updated: August 31, 2026**
+<h1>Privacy Policy for OcuNest</h1>
+<p class="updated">Last updated: August 31, 2026</p>
 
-Ocular Ent ("we", "our", or "us") operates the OcuNest mobile application (the "App"). This page informs you of our policies regarding the collection, use, and disclosure of information when you use our App.
+<p>Ocular Ent ("we", "our", or "us") operates the OcuNest mobile application (the "App"). This page informs you of our policies regarding the collection, use, and disclosure of information when you use our App.</p>
 
-## Information We Collect
+<h2>Information We Collect</h2>
+<p>OcuNest is designed to store your data locally on your device whenever possible. We collect and process the following types of information:</p>
 
-OcuNest is designed to store your data locally on your device whenever possible. We collect and process the following types of information:
+<h3>1. App Usage Data (via Accessibility Service and Usage Stats)</h3>
+<p>To provide the app-blocking and screen-time tracking features, OcuNest requires:</p>
+<ul>
+  <li><strong>Accessibility Service</strong>: OcuNest uses Android's Accessibility Service <strong>solely</strong> to detect when a user opens an app that has been designated as "blocked" by the user, in order to display a blocking overlay screen. OcuNest does <strong>not</strong> use the Accessibility Service to read, collect, record, or transmit the content of any other app, keystrokes, personal messages, passwords, or any other on-screen content. This data is processed entirely on-device and is never transmitted to our servers or any third party.</li>
+  <li><strong>Usage Stats Access (<code>PACKAGE_USAGE_STATS</code>)</strong>: Used to measure how long designated apps remain unopened, in order to calculate in-app currency rewards. This data stays on your device and is not transmitted externally.</li>
+</ul>
 
-### 1. App Usage Data (via Accessibility Service and Usage Stats)
-To provide the app-blocking and screen-time tracking features, OcuNest requires:
-- **Accessibility Service**: OcuNest uses Android's Accessibility Service **solely** to detect when a user opens an app that has been designated as "blocked" by the user, in order to display a blocking overlay screen. OcuNest does **not** use the Accessibility Service to read, collect, record, or transmit the content of any other app, keystrokes, personal messages, passwords, or any other on-screen content. This data is processed entirely on-device and is never transmitted to our servers or any third party.
-- **Usage Stats Access (`PACKAGE_USAGE_STATS`)**: Used to measure how long designated apps remain unopened, in order to calculate in-app currency rewards. This data stays on your device and is not transmitted externally.
+<h3>2. Overlay Permission (<code>SYSTEM_ALERT_WINDOW</code>)</h3>
+<p>Used only to display the blocking confirmation screen over other apps when a user attempts to open a blocked app. No data is collected through this permission.</p>
 
-### 2. Overlay Permission (`SYSTEM_ALERT_WINDOW`)
-Used only to display the blocking confirmation screen over other apps when a user attempts to open a blocked app. No data is collected through this permission.
+<h3>3. Advertising Data</h3>
+<p>OcuNest uses Google AdMob to display rewarded video advertisements (used to temporarily unlock a blocked app for 5 minutes). AdMob may collect device identifiers (such as Advertising ID) and other data as described in <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy &amp; Terms</a>. We do not control or have access to this data beyond what AdMob provides through its standard reporting dashboard.</p>
 
-### 3. Advertising Data
-OcuNest uses Google AdMob to display rewarded video advertisements (used to temporarily unlock a blocked app for 5 minutes). AdMob may collect device identifiers (such as Advertising ID) and other data as described in [Google's Privacy & Terms](https://policies.google.com/privacy). We do not control or have access to this data beyond what AdMob provides through its standard reporting dashboard.
+<h3>4. Locally Stored App Data</h3>
+<p>The following data is generated by your use of the App and stored <strong>locally on your device only</strong> (not on our servers):</p>
+<ul>
+  <li>Character growth stage and in-app currency balance</li>
+  <li>Room decoration items purchased/owned</li>
+  <li>List of apps you have designated as "blocked"</li>
+  <li>Sleep schedule settings you configure</li>
+</ul>
+<p>We do not have access to this locally stored data, and it is deleted when you uninstall the App.</p>
 
-### 4. Locally Stored App Data
-The following data is generated by your use of the App and stored **locally on your device only** (not on our servers):
-- Character growth stage and in-app currency balance
-- Room decoration items purchased/owned
-- List of apps you have designated as "blocked"
-- Sleep schedule settings you configure
+<h2>Permissions Used and Why</h2>
+<table>
+  <tr><th>Permission</th><th>Purpose</th></tr>
+  <tr><td>Accessibility Service</td><td>Detect attempts to open blocked apps and display the blocking screen</td></tr>
+  <tr><td>Display over other apps (<code>SYSTEM_ALERT_WINDOW</code>)</td><td>Show the block/unlock overlay screen</td></tr>
+  <tr><td>Usage Access (<code>PACKAGE_USAGE_STATS</code>)</td><td>Measure lock duration for in-app currency rewards</td></tr>
+  <tr><td>Foreground Service</td><td>Keep the app-lock tracking running reliably in the background</td></tr>
+  <tr><td>Ignore Battery Optimizations</td><td>Prevent the operating system from killing the background tracking service</td></tr>
+  <tr><td>Internet</td><td>Required to serve AdMob advertisements</td></tr>
+</table>
 
-We do not have access to this locally stored data, and it is deleted when you uninstall the App.
+<h2>Children's Privacy</h2>
+<p>OcuNest is not directed at children under 13, and we do not knowingly collect personal information from children under 13.</p>
 
-## Permissions Used and Why
+<h2>Data Sharing</h2>
+<p>We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties. Advertising data is shared only with Google AdMob as described above.</p>
 
-| Permission | Purpose |
-|---|---|
-| Accessibility Service | Detect attempts to open blocked apps and display the blocking screen |
-| Display over other apps (`SYSTEM_ALERT_WINDOW`) | Show the block/unlock overlay screen |
-| Usage Access (`PACKAGE_USAGE_STATS`) | Measure lock duration for in-app currency rewards |
-| Foreground Service | Keep the app-lock tracking running reliably in the background |
-| Ignore Battery Optimizations | Prevent the operating system from killing the background tracking service |
-| Internet | Required to serve AdMob advertisements |
+<h2>Data Retention</h2>
+<p>Since app data (currency, character state, room items, blocked app list) is stored locally on your device, this data persists only as long as the App remains installed. Uninstalling the App removes all locally stored data.</p>
 
-## Children's Privacy
+<h2>Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date.</p>
 
-OcuNest is not directed at children under 13, and we do not knowingly collect personal information from children under 13.
+<h2>Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us at:</p>
+<p><strong>Email:</strong> ocularents@gmail.com</p>
 
-## Data Sharing
-
-We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties. Advertising data is shared only with Google AdMob as described above.
-
-## Data Retention
-
-Since app data (currency, character state, room items, blocked app list) is stored locally on your device, this data persists only as long as the App remains installed. Uninstalling the App removes all locally stored data.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date.
-
-## Contact Us
-
-If you have any questions about this Privacy Policy, please contact us at:
-**Email:** ocularents@gmail.com
+</body>
+</html>
